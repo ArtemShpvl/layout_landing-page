@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0 48px;
+
+  height: 56px;
+  background-color: $main-text-color;
+  color: #fff;
+
+  font-family: $second-font-family;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.69;
+  text-align: center;
+
+  cursor: pointer;
+  transition: background-color $effectDuration;
+
+  &:hover {
+    border: 2px solid #f0f1f4;
+    background-color: #f8f8fa;
+    color: $main-text-color;
+  }
+
+  &:active {
+    background-color: #111;
+  }
+}

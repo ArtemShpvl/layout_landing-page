@@ -1,0 +1,26 @@
+.product {
+  &__photo {
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  &__title {
+    font-family: $second-font-family;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  &__description {
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+  }
+
+  &__price {
+    font-family: $second-font-family;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+}
